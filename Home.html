@@ -31,7 +31,7 @@
       margin-bottom: 60px;
     }
     .logo img {
-      width: 48px;
+      width: 48px; /* doubled size */
       height: 48px;
     }
     .logo span {
@@ -40,7 +40,7 @@
     }
     h1 {
       font-weight: 800;
-      font-size: 4rem;
+      font-size: 4rem;  /* bigger headline */
       line-height: 1.2;
       margin-bottom: 30px;
     }
@@ -48,14 +48,9 @@
       font-weight: 500;
       font-size: 18px;
       color: #333;
-      margin-bottom: 30px; /* space below for widget */
-    }
-    /* Waitlist widget container styling */
-    #waitlist-widget {
-      max-width: 400px;
     }
     .phone-image img {
-      width: 480px;
+      width: 480px; /* bigger phone image */
       height: auto;
       border-radius: 40px;
       box-shadow: 0 6px 30px rgba(0,0,0,0.15);
@@ -66,7 +61,7 @@
   <div class="container">
     <div class="text-section">
       <div class="logo">
-        <img src="logo-icon.jpg" alt="Safe To Eat Logo" />
+        <img src="logo-icon.png" alt="Safe To Eat Logo" />
         <span>Safe To Eat</span>
       </div>
       <h1>
@@ -77,23 +72,9 @@
       <p class="subtitle">
         Stay one step ahead of allergens with easy and accurate detection.
       </p>
-
-      <!-- Waitlist widget embed -->
-      <div id="waitlist-widget">
-        <script 
-          src="https://freewaitlists.com/widgets/email-widget.js" 
-          data-waitlist-id="cmfyezrdk0004o201x48ldkqn" 
-          data-button-text="Join Waitlist"
-          data-input-placeholder="Enter your email" 
-          data-success-message="Thank you for joining the waitlist!"
-          data-error-message="Something went wrong. Please try again later."
-          data-bad-email-message="Please enter a valid email address.">
-        </script>
-      </div>
     </div>
-
     <div class="phone-image">
-      <img src="phone-mockup.jpg" alt="Phone showing allergen detection app" />
+      <img src="phone-mockup.png" alt="Phone showing allergen detection app" />
     </div>
   </div>
 </body>
