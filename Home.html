@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Safe To Eat</title>
+  <title>Smart Allergen Detection</title>
   <style>
     body {
       margin: 0;
@@ -31,7 +31,7 @@
       margin-bottom: 60px;
     }
     .logo img {
-      width: 48px; /* doubled size */
+      width: 48px;
       height: 48px;
     }
     .logo span {
@@ -40,7 +40,7 @@
     }
     h1 {
       font-weight: 800;
-      font-size: 4rem;  /* bigger headline */
+      font-size: 4rem;
       line-height: 1.2;
       margin-bottom: 30px;
     }
@@ -48,9 +48,14 @@
       font-weight: 500;
       font-size: 18px;
       color: #333;
+      margin-bottom: 30px; /* space below for widget */
+    }
+    /* Waitlist widget container styling */
+    #waitlist-widget {
+      max-width: 400px;
     }
     .phone-image img {
-      width: 480px; /* bigger phone image */
+      width: 480px;
       height: auto;
       border-radius: 40px;
       box-shadow: 0 6px 30px rgba(0,0,0,0.15);
@@ -72,6 +77,7 @@
       <p class="subtitle">
         Stay one step ahead of allergens with easy and accurate detection.
       </p>
+
       <!-- Waitlist widget embed -->
       <div id="waitlist-widget">
         <script 
@@ -85,7 +91,7 @@
         </script>
       </div>
     </div>
-    </div>
+
     <div class="phone-image">
       <img src="phone-mockup.png" alt="Phone showing allergen detection app" />
     </div>
