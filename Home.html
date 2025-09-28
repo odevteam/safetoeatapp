@@ -53,20 +53,6 @@
     }
     #waitlist-widget {
       max-width: 400px;
-      margin-bottom: 20px;
-    }
-    .feedback-link {
-      display: inline-block;
-      padding: 14px 24px;
-      background-color: #0073e6;
-      color: #fff;
-      text-decoration: none;
-      font-weight: 600;
-      border-radius: 10px;
-      transition: background 0.3s ease;
-    }
-    .feedback-link:hover {
-      background-color: #005bb5;
     }
     .phone-image img {
       width: 480px;
@@ -94,15 +80,6 @@
 
       <!-- Placeholder for the Waitlist Widget -->
       <div id="waitlist-widget"></div>
-
-      <!-- Feedback Button -->
-      <a 
-        href="https://getfiddo.com/boards/safe-to-eat" 
-        class="feedback-link" 
-        target="_blank" 
-        rel="noopener noreferrer">
-        💡 Have Ideas or Feedback
-      </a>
     </div>
 
     <div class="phone-image">
@@ -124,5 +101,30 @@
       document.getElementById("waitlist-widget").appendChild(script);
     });
   </script>
+  <a 
+  href="https://getfiddo.com/boards/safe-to-eat" 
+  class="feedback-btn" 
+  target="_blank" 
+  rel="noopener noreferrer">
+  Have Ideas or Feedback
+</a>
+
+<style>
+  .feedback-btn {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .feedback-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+</style>
 </body>
 </html>
